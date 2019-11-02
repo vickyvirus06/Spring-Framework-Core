@@ -1,0 +1,9 @@
+package com.vicky.DependencyInjectionProperty.POJO;
+
+public class Registration {
+
+	private int id;
+	private String name;
+	private String city;
+	
+}

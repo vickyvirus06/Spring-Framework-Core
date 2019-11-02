@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="osobj" class="com.vicky.DIDependentObject.POJO.OS">
+<constructor-arg value="7.0" type="double"></constructor-arg>
+<constructor-arg value="Android"></constructor-arg>
+</bean>
+<bean id="brandobj" class="com.vicky.DIDependentObject.POJO.Brand">
+<constructor-arg value="samsung" type="String"></constructor-arg>
+<constructor-arg value="ON8" type="String"></constructor-arg>
+</bean>
+
+<bean id="mobile" class="com.vicky.DIDependentObject.POJO.Mobile">
+
+</bean>
+</beans>

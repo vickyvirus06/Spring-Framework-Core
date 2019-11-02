@@ -1,0 +1,5 @@
+package com.vicky.DIConstructor.POJO;
+
+public class Student {
+
+}

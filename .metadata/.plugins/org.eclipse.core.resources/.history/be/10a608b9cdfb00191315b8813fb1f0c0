@@ -1,0 +1,20 @@
+package com.vicky.DICollectionList;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.vicky.DICollectionList.POJO.SJT;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+       ApplicationContext application = new ClassPathXmlApplicationContext("resources/ApplicationContext.xml");
+       SJT sjt = (SJT)application.getBean("sjtobj");
+       
+    }
+}

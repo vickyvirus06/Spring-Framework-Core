@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0 //EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="shopobj" class="com.vicky.DIMap.POJO.Shop">
+<constructor-arg value="Reliance Digital"></constructor-arg>
+<constructor-arg value="laptops"></constructor-arg>
+<property name="name"></property>
+<property name="products"></property>
+<property name="laptop">
+<map>
+<entry key="Dell" value="34000"></entry>
+<entry key="HP" value="44500"></entry>
+<entry key="Sony" value="28500"></entry>
+</map>
+</property>
+
+</bean>
+
+
+<bean id="shopobj1" class="com.vicky.DIMap.POJO.Shop">
+<property name="name" value="Reliance Digital"></property>
+<property name="products" value="mobile"></property>
+<property name="laptop">
+<map>
+<entry key="Samsung" value="12000"></entry>
+<entry key="Redmi" value="15000"></entry>
+
+</map>
+</property>
+
+</bean>
+</beans>

@@ -1,0 +1,10 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class Ram {
+	
+	private String name;
+	private String size;
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class Brand {
+	
+	private String name;
+	private String mode
+	public Brand(String name, String mode) {
+		super();
+		this.name = name;
+		this.mode = mode;
+	}l;
+	
+	
+	
+
+}

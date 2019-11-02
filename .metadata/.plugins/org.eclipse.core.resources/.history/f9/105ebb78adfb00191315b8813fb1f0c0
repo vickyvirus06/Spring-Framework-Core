@@ -1,0 +1,22 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class OS {
+	
+	private double version;
+	
+	private String name;
+
+	public OS(double version, String name) {
+		super();
+		this.version = version;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "OS [version=" + version + ", name=" + name + "]";
+	}
+	
+	
+
+}

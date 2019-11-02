@@ -1,0 +1,28 @@
+package com.vicky.DIMap.POJO;
+
+import java.util.Map;
+
+public class Shop {
+	
+	private String name;
+	private String products;
+	private Map<String,Integer> laptop;
+	
+	
+	public Shop(String name, String products, Map<String, Integer> laptop) {
+		
+		this.name = name;
+		this.products = products;
+		this.laptop = laptop;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Shop [name=" + name + ", products=" + products + "]";
+	}
+	
+	
+	
+
+}

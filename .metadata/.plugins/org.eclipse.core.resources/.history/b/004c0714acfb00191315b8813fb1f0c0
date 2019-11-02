@@ -1,0 +1,5 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class OS {
+
+}

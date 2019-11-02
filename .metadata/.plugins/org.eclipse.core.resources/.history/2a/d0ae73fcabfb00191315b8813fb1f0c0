@@ -1,0 +1,11 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class Mobile {
+	
+	private OS os;
+	private Brand brand;
+	private Ram ram;
+	
+	
+
+}

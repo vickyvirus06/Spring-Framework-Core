@@ -1,0 +1,5 @@
+package com.vicky.HelloWorld.POJO;
+
+public class Hello {
+
+}

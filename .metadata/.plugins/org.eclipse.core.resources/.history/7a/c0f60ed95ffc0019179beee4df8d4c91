@@ -1,0 +1,22 @@
+package com.vicky.SetterDependentObject.POJO;
+
+public class Mobile {
+	
+	private OS os;
+	private Brand brand;
+	private Ram ram;
+	private int price;
+	
+	
+	@Override
+	public String toString() {
+		return "Mobile [os=" + os + "\n brand=" + brand + "\n ram=" + ram + "\n price=" + price + "]";
+	}
+	
+	
+	
+	
+	
+	
+
+}

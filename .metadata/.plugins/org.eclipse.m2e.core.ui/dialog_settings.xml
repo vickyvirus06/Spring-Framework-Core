@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\Spring Frameworks\Spring Core\SetterCollectionList"/>
+			<item value="F:\Spring Frameworks\Spring Core\HelloWorld"/>
+			<item value="F:\Spring Frameworks\Spring Core\DISetter"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.vicky.SetterMap"/>
+			<item value="com.vicky.SetterCollectionList2"/>
+			<item value="com.vicky.SetterCollectionList"/>
+			<item value="com.vicky.SetterDependentObject"/>
+			<item value="com.vicky.DIMap"/>
+			<item value="com.vicky.DICollectionList2"/>
+			<item value="com.vicky.DICollectionList"/>
+			<item value="com.vicky.DIDependentObject"/>
+			<item value="com.vicky.DIConstructor"/>
+		</list>
+		<list key="groupId">
+			<item value="com.vicky"/>
+		</list>
+		<list key="artifactId">
+			<item value="SetterMap"/>
+			<item value="SetterCollectionList2"/>
+			<item value="SetterCollectionList"/>
+			<item value="SetterDependentObject"/>
+			<item value="DIMap"/>
+			<item value="DICollectionList2"/>
+			<item value="DICollectionList"/>
+			<item value="DIDependentObject"/>
+			<item value="DIConstructor"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

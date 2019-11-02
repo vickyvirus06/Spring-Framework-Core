@@ -1,0 +1,16 @@
+package com.vicky.SetterDependentObject.POJO;
+
+public class Ram {
+	
+	private String name;
+	private String size;
+	
+	
+	@Override
+	public String toString() {
+		return "[name=" + name + ", size=" + size + "]";
+	}
+	
+	
+
+}

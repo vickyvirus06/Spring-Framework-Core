@@ -1,0 +1,24 @@
+package com.vicky.DICollectionList.POJO;
+
+import java.util.List;
+
+public class SJT {
+	
+	private String name;
+	private int no_of_students;
+	private List<String> courses;
+	private Address address;
+	
+	
+	public SJT(String name, int no_of_students, List<String> courses, Address address) {
+	
+		this.name = name;
+		this.no_of_students = no_of_students;
+		this.courses = courses;
+		this.address = address;
+	}
+	
+	
+
+	
+}

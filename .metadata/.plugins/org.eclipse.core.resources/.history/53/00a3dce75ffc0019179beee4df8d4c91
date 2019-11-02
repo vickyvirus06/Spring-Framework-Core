@@ -1,0 +1,22 @@
+package com.vicky.SetterDependentObject.POJO;
+
+public class OS {
+	
+	private double version;
+	
+	private String name;
+
+	public OS(double version, String name) {
+		super();
+		this.version = version;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "[version=" + version + ", name=" + name + "]";
+	}
+	
+	
+
+}

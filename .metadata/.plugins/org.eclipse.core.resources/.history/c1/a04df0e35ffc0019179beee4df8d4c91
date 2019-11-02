@@ -1,0 +1,17 @@
+package com.vicky.SetterDependentObject.POJO;
+
+public class Brand {
+	
+	private String name;
+	private String model;
+	
+	
+	@Override
+	public String toString() {
+		return "[name=" + name + ", model=" + model + "]";
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class OS {
+	
+	private double version;
+	
+	private String name;
+	
+	
+
+}

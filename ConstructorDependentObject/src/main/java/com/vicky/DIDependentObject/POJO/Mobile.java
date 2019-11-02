@@ -1,0 +1,27 @@
+package com.vicky.DIDependentObject.POJO;
+
+public class Mobile {
+	
+	private OS os;
+	private Brand brand;
+	private Ram ram;
+	private int price;
+	public Mobile(OS os, Brand brand, Ram ram, int price) {
+		
+		this.os = os;
+		this.brand = brand;
+		this.ram = ram;
+		this.price = price;
+	}
+	@Override
+	public String toString() {
+		return "Mobile [os=" + os + "\n brand=" + brand + "\n ram=" + ram + "\n price=" + price + "]";
+	}
+	
+	
+	
+	
+	
+	
+
+}

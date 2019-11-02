@@ -1,0 +1,10 @@
+package com.vicky.DIConstructor.POJO;
+
+public class Student {
+	
+	private int sid;
+	private String name;
+	private String course;
+	
+
+}

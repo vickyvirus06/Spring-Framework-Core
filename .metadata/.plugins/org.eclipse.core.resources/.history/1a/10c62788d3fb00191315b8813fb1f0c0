@@ -1,0 +1,11 @@
+package com.vicky.DIMap.POJO;
+
+public class Shop {
+	
+	private String name;
+	private String products;
+	private Map<String,Integer> laptop;
+	
+	
+
+}

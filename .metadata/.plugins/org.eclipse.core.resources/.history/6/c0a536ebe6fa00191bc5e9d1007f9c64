@@ -1,0 +1,17 @@
+package com.vicky.HelloWorld;
+
+import org.springframework.core.io.ClassPathResource;
+import org.springframework.core.io.Resource;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	Resource rs = new ClassPathResource("");
+        BeanFactory factory = 
+    }
+}

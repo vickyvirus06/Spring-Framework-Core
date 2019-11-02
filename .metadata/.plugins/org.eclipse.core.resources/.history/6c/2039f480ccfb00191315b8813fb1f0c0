@@ -1,0 +1,12 @@
+package com.vicky.DICollectionList.POJO;
+
+public class SJT {
+	
+	private String name;
+	private int no_of_students;
+	private List<String> courses;
+	private Address address;
+	
+	
+
+}

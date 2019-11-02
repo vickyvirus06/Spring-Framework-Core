@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="osobj" class="com.vicky.DIDependentObject.POJO.OS">
+<constructor-arg value="7.0" type="double"></constructor-arg>
+<constructor-arg value="Android"></constructor-arg>
+</bean>
+<bean id="brandobj" class="com.vicky.DIDependentObject.POJO.Brand">
+<constructor-arg value="samsung" type="String"></constructor-arg>
+<constructor-arg value="ON8" type="String"></constructor-arg>
+</bean>
+<bean id="ramobj" class="com.vicky.DIDependentObject.POJO.Ram">
+<constructor-arg value="sandisk" type="String"></constructor-arg>
+<constructor-arg value="3GB" type="String"></constructor-arg>
+</bean>
+
+<bean id="mobileobj" class="com.vicky.DIDependentObject.POJO.Mobile">
+<constructor-arg>
+<ref bean="osobj"/>
+</constructor-arg>
+<constructor-arg>
+<ref bean="brandobj"/>
+</constructor-arg>
+<constructor-arg>
+<ref bean="ramobj"/>
+</constructor-arg>
+<constructor-arg value="12500" type="int">
+</constructor-arg>
+</bean>
+
+<bean id="osobj1" class="com.vicky.DIDependentObject.POJO.OS">
+<constructor-arg value="12.0" type="double"></constructor-arg>
+<constructor-arg value="IOS"></constructor-arg>
+</bean>
+<bean id="brandobj1" class="com.vicky.DIDependentObject.POJO.Brand">
+<constructor-arg value="Apple" type="String"></constructor-arg>
+<constructor-arg value="Iphone 6S" type="String"></constructor-arg>
+</bean>
+<bean id="ramobj" class="com.vicky.DIDependentObject.POJO.Ram">
+<constructor-arg value="sandisk" type="String"></constructor-arg>
+<constructor-arg value="3GB" type="String"></constructor-arg>
+</bean>
+
+<bean id="mobileobj" class="com.vicky.DIDependentObject.POJO.Mobile">
+<constructor-arg>
+<ref bean="osobj"/>
+</constructor-arg>
+<constructor-arg>
+<ref bean="brandobj"/>
+</constructor-arg>
+<constructor-arg>
+<ref bean="ramobj"/>
+</constructor-arg>
+<constructor-arg value="12500" type="int">
+</constructor-arg>
+</bean>
+</beans>

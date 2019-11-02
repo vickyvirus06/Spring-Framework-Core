@@ -1,0 +1,12 @@
+package com.vicky.DICollectionList2.POJO;
+
+public class Address {
+	
+	private String street;
+	private int pincode;
+	
+	
+	
+	
+
+}

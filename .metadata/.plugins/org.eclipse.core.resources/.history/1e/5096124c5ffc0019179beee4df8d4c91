@@ -1,0 +1,5 @@
+package com.vicky.SetterDependentObject.POJO;
+
+public class Mobile {
+
+}

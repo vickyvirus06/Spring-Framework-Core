@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0 //EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans>
+<bean id="addressobj" class="com.vicky.DICollectionList.POJO.Address">
+<property name="street" value="marenhalli road"></property>
+<property name="pincode" value="560060"></property>
+</bean>
+
+<bean id="sjtobj" class="com.vicky.DICollectionList.POJO.SJT">
+<property name="name" value="SJT"></property>
+<property name="no_of_students" value="12"></property>
+<property name="courses">
+<list>
+<value>Core Java</value>
+<value>JDBC</value>
+<value>JSP</value>
+<value>Spring</value>
+<value>Hibernate</value>
+
+</list>
+</property>
+<constructor-arg ref="addressobj"></constructor-arg>
+</bean>
+</beans>
