@@ -1,0 +1,17 @@
+package com.vicky.AnnotationQualifier.POJO;
+
+public class Address {
+	
+	
+	@Value("Marenhalli Road")
+	private String street;
+	
+	@Value("560060")
+	private String pincode;
+	
+	public void adddetails()
+	{
+		System.out.println("Street :  " + street +"\n"+"Pincode  : " +pincode);
+	}
+
+}

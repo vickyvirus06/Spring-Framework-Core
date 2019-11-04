@@ -1,0 +1,22 @@
+package com.vicky.AnnotationQualifier.Impl;
+
+import org.springframework.beans.factory.annotation.Value;
+
+public class Iphone {
+
+	@Value("Iphone 6s")
+	private String name;
+	
+	@Value("2GB")
+	private String ram;
+	
+	@Value("24000")
+	private int price;
+	
+	public void details() {
+		System.out.println("Name : " +name+"\n"+"Ram  : "+ram +"\n" + "Price :  "+ price);
+		
+	}
+
+
+}

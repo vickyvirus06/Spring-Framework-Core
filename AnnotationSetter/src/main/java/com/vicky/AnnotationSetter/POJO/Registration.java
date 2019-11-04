@@ -1,0 +1,44 @@
+package com.vicky.AnnotationSetter.POJO;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Registration {
+
+	@Value("101")
+	private int id;
+	
+	@Autowired
+	private Name name;
+	
+	@Value("Mumbai")
+	private String city;
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public Name getName() {
+		return name;
+	}
+	public void setName(Name name) {
+		this.name = name;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	@Override
+	public String toString() {
+		return "Registration [id=" + id + ", " + name + ", city=" + city + "]";
+	}
+	
+	
+	
+	
+}

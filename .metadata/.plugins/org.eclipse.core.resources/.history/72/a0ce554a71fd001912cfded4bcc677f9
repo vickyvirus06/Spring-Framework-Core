@@ -1,0 +1,10 @@
+package com.vicky.AnnotationSetter.POJO;
+
+public class Name {
+	
+	private first;
+	private last;
+	private middle;
+	
+
+}

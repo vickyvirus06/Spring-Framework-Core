@@ -1,0 +1,25 @@
+package com.vicky.AnnotationSetter.Config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.AnnotationSetter.POJO.Address;
+import com.AnnotationSetter.POJO.SJT;
+
+@Configuration
+public class AppConfig {
+	
+	@Bean
+	public Address addressBean()
+	{
+		return new Address();
+	}
+	
+	@Bean
+	public SJT sjtBean()
+	{
+		return new SJT();
+	}
+	
+
+}

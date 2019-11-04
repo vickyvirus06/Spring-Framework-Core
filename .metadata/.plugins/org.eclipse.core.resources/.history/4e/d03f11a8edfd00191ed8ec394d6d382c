@@ -1,0 +1,10 @@
+package com.vicky.AnnotationQualifier;
+
+import com.vicky.AnnotationQualifier.Interface.Mobile;
+
+public class Shop {
+
+	private String name;
+	private Mobile mobile;
+	private Address address;
+}

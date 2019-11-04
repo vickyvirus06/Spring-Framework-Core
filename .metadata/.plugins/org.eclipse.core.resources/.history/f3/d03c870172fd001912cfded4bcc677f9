@@ -1,0 +1,21 @@
+package com.vicky.AnnotationSetter.Configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.vicky.AnnotationSetter.POJO.Name;
+import com.vicky.AnnotationSetter.POJO.Registration;
+
+@Configuration
+public class AppConfig {
+
+	
+	public Registration registrationBean()
+	{
+		return new Registration();
+	}
+	
+	public Name nameBean()
+	{
+		return new Name();
+	}
+}

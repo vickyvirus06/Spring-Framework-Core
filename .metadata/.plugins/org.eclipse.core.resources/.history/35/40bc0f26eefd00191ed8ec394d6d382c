@@ -1,0 +1,20 @@
+package com.vicky.AnnotationQualifier.POJO;
+
+import com.vicky.AnnotationQualifier.Interface.Mobile;
+
+public class Shop {
+
+	
+	private String name;
+	private Mobile mobile;
+	private Address address;
+
+	public void shop()
+	{
+		System.out.println(name);
+		mobile.details();
+		address.adddetails();
+	}
+
+}
+

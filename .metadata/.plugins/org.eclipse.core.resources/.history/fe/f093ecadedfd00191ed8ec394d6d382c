@@ -1,0 +1,8 @@
+package com.vicky.AnnotationQualifier.POJO;
+
+public class Shop {
+
+	private String name;
+	private Mobile;
+	private Address address;
+}

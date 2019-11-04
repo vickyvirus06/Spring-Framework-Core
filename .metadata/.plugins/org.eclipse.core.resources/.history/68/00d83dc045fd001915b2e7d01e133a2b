@@ -1,0 +1,13 @@
+package com.vicky.AnnotationHelloWorld.POJO;
+
+import org.springframework.stereotype.Component;
+
+public class Hello {
+	
+	@Component
+	public void show()
+	{
+		System.out.println("Hello World");
+	}
+
+}

@@ -1,0 +1,13 @@
+package com.vicky.AnnotationSetter.Configuration;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
+
+	
+	public Registration registration()
+	{
+		
+	}
+}

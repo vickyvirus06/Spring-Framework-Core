@@ -1,0 +1,5 @@
+package com.vicky.BeanAnnotation.Config;
+
+public class Config {
+
+}

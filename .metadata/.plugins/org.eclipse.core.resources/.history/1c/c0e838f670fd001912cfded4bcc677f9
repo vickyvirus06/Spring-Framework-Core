@@ -1,0 +1,5 @@
+package com.vicky.AnnotationSetter.Configuration;
+
+public class AppConfig {
+
+}

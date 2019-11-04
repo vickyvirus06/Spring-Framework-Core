@@ -1,0 +1,12 @@
+package com.vicky.AnnotationQualifier.POJO;
+
+import com.vicky.AnnotationQualifier.Interface.Mobile;
+
+public class Samsung implements Mobile{
+
+	private String name;
+	private String ram;
+	private int price;
+
+	
+}

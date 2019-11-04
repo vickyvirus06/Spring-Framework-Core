@@ -1,0 +1,22 @@
+package com.vicky.AnnotationQualifier.POJO;
+
+import com.vicky.AnnotationQualifier.Interface.Mobile;
+
+public class Samsung implements Mobile{
+
+	@Value("Note 8")
+	private String name;
+	
+	@Value("4GB")
+	private String ram;
+	
+	@Value("54000")
+	private int price;
+	
+	public void details() {
+		System.out.println("Name : " +name+"\n"+"Ram  : "+ram +"\n" + "Price :  "+ price);
+		
+	}
+
+	
+}

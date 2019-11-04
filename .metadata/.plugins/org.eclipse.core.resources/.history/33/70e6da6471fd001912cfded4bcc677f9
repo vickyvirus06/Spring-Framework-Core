@@ -1,0 +1,17 @@
+package com.vicky.AnnotationSetter.POJO;
+
+@Component
+public class Name {
+	
+	@Value("vicky")
+	private String first;
+	
+	@Value("Poojari")
+	private String last;
+	
+	@Value("Ravi")
+	private String middle;
+	
+	
+
+}

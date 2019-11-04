@@ -1,0 +1,18 @@
+package com.vicky.AnnotationConstructor.Config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.vicky.DIDependentObject.POJO.Mobile;
+
+@Configuration
+public class AppConfig {
+	
+	@Bean
+	public Mobile getMobile()
+	{
+		return new Mobile();
+	}
+	
+
+}

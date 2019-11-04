@@ -1,0 +1,16 @@
+package com.vicky.AnnotationQualifier.Config;
+
+import org.springframework.context.annotation.Configuration;
+
+import com.vicky.AnnotationQualifier.POJO.Shop;
+
+@Configuration
+public class AppConfig {
+	
+	public Shop shop()
+	{
+		return new Shop();
+	}
+	
+
+}

@@ -1,0 +1,11 @@
+package com.vicky.AnnotationQualifier.POJO;
+
+public class Address {
+	
+	
+	private String street;
+	private String pincode;
+	
+	
+
+}
